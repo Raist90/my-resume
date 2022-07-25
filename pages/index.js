@@ -5,6 +5,7 @@ import Layout from '../components/Layout'
 import Navbar from '../components/Navbar'
 import Button from '../components/Button'
 import Footer from '../components/Footer'
+import '../styles/globals.css'
 
 export default function Home({ title = "Home" }) {
   return (

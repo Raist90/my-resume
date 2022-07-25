@@ -6,6 +6,7 @@ import Navbar from '../components/Navbar'
 import Button from '../components/Button'
 import Footer from '../components/Footer'
 import leonardo from '../public/leonardo-da-vinci_100x100.jpg'
+import '../styles/globals.css'
 
 export default function Home({ title = "Experience" }) {
     return (
