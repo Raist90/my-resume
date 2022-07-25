@@ -21,7 +21,7 @@ export default function Home({ title = "Home" }) {
           <h4>Frontend Dev</h4>
           <p>I am an experienced web developer interested in projects that require both creative and analytical thinking, and I prioritize user experience in my work
           </p>
-          <p>📚 <a href="https://forgiailtuosito.it/" title="See the book!" target="_blank">I published a book</a> about how to realize websites with WordPress for dummies
+          <p>📚 <a href="https://forgiailtuosito.it/" title="See the book!" target="_blank" rel="noreferrer">I published a book</a> about how to realize websites with WordPress for dummies
           </p>
           <Button text="Hire me!" />
         </div>
