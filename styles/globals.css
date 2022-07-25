@@ -75,4 +75,8 @@ blockquote {
     font-size: 1.3rem;
   }
 
+  ul {
+    font-size: .5rem;
+  }
+
 }
