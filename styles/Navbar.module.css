@@ -26,3 +26,11 @@
 .navbar__listItem a {
     text-decoration: none;
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .navbar {
+        font-size: .5rem;
+    }
+
+}
