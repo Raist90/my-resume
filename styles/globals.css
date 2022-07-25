@@ -63,3 +63,12 @@ blockquote {
   font-style: italic;
   margin: 20px;
 }
+
+/* mobile */
+@media (min-width: 320px) and (max-width: 480px) {
+
+  body {
+    font-size: 90%;
+  }
+
+}
