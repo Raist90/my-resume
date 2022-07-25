@@ -59,3 +59,12 @@
   font-style: normal;
   text-transform: uppercase;
 }
+
+/* mobile */
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .homeContainer {
+    padding: 20px;
+  }
+
+}
