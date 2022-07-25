@@ -1,0 +1,28 @@
+.navbar {
+    font-family: 'Press Start 2P', cursive;
+    margin: 50px 0;
+    background: #fff;
+    color: #000;
+    font-size: .8rem;
+}
+
+.navbar__list {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    padding: 10px 0;
+    border: 3px solid #000;
+    margin-bottom: 0;
+}
+
+.navbar__listItem {
+    flex: 1;
+    text-align: center;
+    margin: 0;
+}
+
+.navbar__listItem a {
+    text-decoration: none;
+}

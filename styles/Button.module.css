@@ -1,0 +1,26 @@
+.btnPrimary {
+    background: #ff8906;
+    color: #fff;
+    height: auto;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #000;
+}
+
+.btnPrimary:hover {
+    background: #d57405;
+    color: #fff;
+    border: 2px solid #000;
+}
+
+.btnPrimary:active,
+.btnPrimary:visited,
+.btnPrimary:focus {
+    background: #ff8906;
+    color: #fff;
+    border: 2px solid #000;
+}
+
+.red {
+    background: red;
+}
