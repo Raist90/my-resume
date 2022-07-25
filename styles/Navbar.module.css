@@ -32,7 +32,11 @@
     .navbar__list {
         font-size: .5rem;
         justify-content: space-between;
-        padding: 10px;
+        padding: 10px 20px;
+    }
+
+    .navbar__listItem {
+        flex: initial;
     }
 
 }
