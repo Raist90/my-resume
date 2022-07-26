@@ -23,7 +23,7 @@ export default function Home({ title = "Home" }) {
           </p>
           <p>📚 <a href="https://forgiailtuosito.it/" title="See the book!" target="_blank" rel="noreferrer">I published a book</a> about how to realize websites with WordPress for dummies.
           </p>
-          <Button text="Hire me!" href="mailto:manuel.detoma@gmail.com" />
+          <Button text="Hire me!" href="mailto:manuel.detoma@gmail.com" title="Send me an email!" />
         </div>
         <Footer />
       </Layout>

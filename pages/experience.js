@@ -109,7 +109,7 @@ export default function Home({ title = "Experience" }) {
                         </li>
                     </ul>
 
-                    <Button text="Hire me!" href="mailto:manuel.detoma@gmail.com" />
+                    <Button text="Hire me!" href="mailto:manuel.detoma@gmail.com" title="Send me an email!" />
                 </div>
                 <Footer />
             </Layout>

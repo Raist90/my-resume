@@ -4,9 +4,11 @@ import Link from 'next/dist/client/link'
 const Button = ({ text, href, title }) => {
     return (
         <Link href={href}>
-            <button className={styles.btnPrimary} >
-                {text}
-            </button >
+            <a title={title}>
+                <button className={styles.btnPrimary} >
+                    {text}
+                </button>
+            </a>
         </Link>
     )
 }
