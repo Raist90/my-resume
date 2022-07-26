@@ -19,11 +19,11 @@ export default function Home({ title = "Home" }) {
           <h1 className={styles.homeContainer__title}>MANUEL DE TOMA</h1>
           <p className={styles.homeContainer__small}><em>Born in Italy, 32 years old</em></p>
           <h4>Frontend Dev</h4>
-          <p>I am an experienced web developer interested in projects that require both creative and analytical thinking, and I prioritize user experience in my work
+          <p>I am an experienced web developer interested in projects that require both creative and analytical thinking, and I prioritize user experience in my work.
           </p>
-          <p>📚 <a href="https://forgiailtuosito.it/" title="See the book!" target="_blank" rel="noreferrer">I published a book</a> about how to realize websites with WordPress for dummies
+          <p>📚 <a href="https://forgiailtuosito.it/" title="See the book!" target="_blank" rel="noreferrer">I published a book</a> about how to realize websites with WordPress for dummies.
           </p>
-          <Button text="Hire me!" />
+          <Button text="Hire me!" href="mailto:manuel.detoma@gmail.com" />
         </div>
         <Footer />
       </Layout>

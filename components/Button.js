@@ -1,10 +1,13 @@
 import styles from '../styles/Button.module.css'
+import Link from 'next/dist/client/link'
 
-const Button = ({ text }) => {
+const Button = ({ text, href, title }) => {
     return (
-        <button className={styles.btnPrimary} >
-            {text}
-        </button >
+        <Link href={href}>
+            <button className={styles.btnPrimary} >
+                {text}
+            </button >
+        </Link>
     )
 }
 
