@@ -15,7 +15,9 @@ export default function Home({ title = "Skills" }) {
             <Layout>
                 <Navbar />
                 <div className={styles.homeContainer}>
-                    <h1 className={styles.homeContainer__titleYellow}>{title}</h1>
+                    <div className={styles.homeContainer__skillsTitleContainer}>
+                        <h1 className={styles.homeContainer__titleYellow}>{title}</h1>
+                    </div>
 
                     <hr className="gap" />
 
@@ -36,7 +38,9 @@ export default function Home({ title = "Skills" }) {
 
                     <hr className="gap" />
 
-                    <h1 className={styles.homeContainer__titleYellow}>Languages</h1>
+                    <div className={styles.homeContainer__languageTitleContainer}>
+                        <h1 className={styles.homeContainer__titleYellow}>Languages</h1>
+                    </div>
 
                     <hr className="gap" />
 

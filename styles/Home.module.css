@@ -10,14 +10,40 @@
   margin-bottom: 5px;
 }
 
-.homeContainer__titleYellow {
+.homeContainer__skillsTitleContainer,
+.homeContainer__languageTitleContainer {
   display: inline-block;
+  width: 100%;
   padding: 20px;
-  border: 3px solid #000;
-  background: #ff8906;
-  color: #fff;
+  border: 1px solid #000;
   margin-top: 0;
   margin-bottom: 0;
+  position: relative;
+}
+
+.homeContainer__skillsTitleContainer {
+  background: url(../public/code.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.homeContainer__languageTitleContainer {
+  background: url(https://images.unsplash.com/photo-1614107151491-6876eecbff89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80) no-repeat center center;
+  background-size: cover;
+}
+
+.homeContainer__titleYellow {
+  /*display: inline-block;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #000;
+  background: #ff8906;*/
+  color: #fff;
+  /*
+  margin-top: 0;
+  margin-bottom: 0;
+  */
+  position: relative;
+  z-index: 10;
 }
 
 .homeContainer__small {
