@@ -16,7 +16,10 @@ export default function Home({ title = "Experience" }) {
             <Layout>
                 <Navbar />
                 <div className={styles.homeContainer}>
-                    <h1 className={styles.homeContainer__titleYellow}>{title}</h1>
+                    <div className={styles.homeContainer__experienceTitleContainer}>
+                        <h1 className={styles.homeContainer__titleYellow}>{title}</h1>
+                    </div>
+
                     <blockquote>💬 Experience does not err; only your judgements err by expecting from her what is not in her power.
                         <div className={styles.blockquote__author}>
                             <Image
@@ -79,7 +82,9 @@ export default function Home({ title = "Experience" }) {
 
                     <hr className="gap" />
 
-                    <h1 className={styles.homeContainer__titleYellow}>Academics</h1>
+                    <div className={styles.homeContainer__academicsTitleContainer}>
+                        <h1 className={styles.homeContainer__titleYellow}>Academics</h1>
+                    </div>
 
                     <hr className="gap" />
 
