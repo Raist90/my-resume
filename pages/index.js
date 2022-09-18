@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Layout from '../components/Layout'
 import Navbar from '../components/Navbar'
@@ -20,8 +19,8 @@ export default function Home({ title = "Home" }) {
           <h1 className={styles.homeContainer__title}>MANUEL DE TOMA</h1>
           <p className={styles.homeContainer__small}><em>Born in Italy, 32 years old</em></p>
           <div className={styles.homeContainer__icons}>
-            <a href="https://github.com/Raist90" target="_blank" title="Github profile"><TiSocialGithubCircular /></a>
-            <a href="https://www.linkedin.com/in/manuel-de-toma/" target="_blank" title="LinkedIn profile"><TiSocialLinkedinCircular /></a>
+            <a href="https://github.com/Raist90" target="_blank" rel="noreferrer" title="Github profile"><TiSocialGithubCircular alt="github icon" /></a>
+            <a href="https://www.linkedin.com/in/manuel-de-toma/" target="_blank" rel="noreferrer" title="LinkedIn profile"><TiSocialLinkedinCircular alt="linkedin icon" /></a>
           </div>
           <hr />
           <h4>Frontend Dev</h4>
