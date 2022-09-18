@@ -16,7 +16,7 @@ export default function Home({ title = "Skills" }) {
                 <Navbar />
                 <div className={styles.homeContainer}>
                     <div className={styles.homeContainer__skillsTitleContainer}>
-                        <h1 className={styles.homeContainer__titleYellow}>{title}</h1>
+                        <h1 className={styles.homeContainer__pageTitle}>{title}</h1>
                     </div>
 
                     <hr className="gap" />
@@ -39,7 +39,7 @@ export default function Home({ title = "Skills" }) {
                     <hr className="gap" />
 
                     <div className={styles.homeContainer__languageTitleContainer}>
-                        <h1 className={styles.homeContainer__titleYellow}>Languages</h1>
+                        <h1 className={styles.homeContainer__pageTitle}>Languages</h1>
                     </div>
 
                     <hr className="gap" />
