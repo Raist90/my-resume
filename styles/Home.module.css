@@ -52,6 +52,11 @@
 
 .homeContainer__small {
   font-size: .8em;
+  margin-bottom: 0;
+}
+
+.homeContainer h4 {
+  margin-top: 20px;
 }
 
 .homeContainer__list {
@@ -88,6 +93,20 @@
   font-weight: bold;
   font-style: normal;
   text-transform: uppercase;
+}
+
+.homeContainer__icons {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 2em;
+}
+
+.homeContainer__icons a {
+  display: flex;
 }
 
 /* mobile */

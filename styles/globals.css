@@ -53,6 +53,7 @@ a:hover {
 hr {
   margin-top: 5px;
   margin-bottom: 20px;
+  border-color: rgba(0, 0, 0, .2);
 }
 
 .gap {
