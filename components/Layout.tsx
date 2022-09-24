@@ -1,4 +1,8 @@
-const Layout = ({ children }) => {
+export interface Props {
+    children: JSX.Element[];
+}
+
+const Layout = ({ children }: Props) => {
     return (
         <div className="container">
             <div className="row">

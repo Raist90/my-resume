@@ -1,12 +1,18 @@
 import styles from '../styles/Button.module.css'
 import Link from 'next/dist/client/link'
 
-const Button = ({ text, href, title }) => {
+export interface Button {
+    text: string
+    href: string
+    title: string
+}
+
+const Button = (props: Button) => {
     return (
-        <Link href={href}>
-            <a title={title}>
+        <Link href={props.href}>
+            <a title={props.title}>
                 <button className={styles.btnPrimary} >
-                    {text}
+                    {props.text}
                 </button>
             </a>
         </Link>

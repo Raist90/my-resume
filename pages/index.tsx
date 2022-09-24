@@ -19,8 +19,8 @@ export default function Home({ title = "Home" }) {
           <h1 className={styles.homeContainer__title}>MANUEL DE TOMA</h1>
           <p className={styles.homeContainer__small}><em>Born in Italy, 32 years old</em></p>
           <div className={styles.homeContainer__icons}>
-            <a href="https://github.com/Raist90" target="_blank" rel="noreferrer" title="Github profile"><TiSocialGithubCircular alt="github icon" /></a>
-            <a href="https://www.linkedin.com/in/manuel-de-toma/" target="_blank" rel="noreferrer" title="LinkedIn profile"><TiSocialLinkedinCircular alt="linkedin icon" /></a>
+            <a href="https://github.com/Raist90" target="_blank" rel="noreferrer" title="Github profile"><TiSocialGithubCircular title="Github profile" /></a>
+            <a href="https://www.linkedin.com/in/manuel-de-toma/" target="_blank" rel="noreferrer" title="LinkedIn profile"><TiSocialLinkedinCircular title="LinkedIn profile" /></a>
           </div>
           <hr />
           <h4>Frontend Dev</h4>
